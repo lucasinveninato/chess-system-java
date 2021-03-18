@@ -14,6 +14,8 @@ public class Pawn extends ChessPiece {
 	public String toString() {
 		return "P";
 	}
-	
-
+	public boolean[][] possibleMoves() {
+		boolean[][] mat = new boolean[getBoard().getRows()][getBoard().getColums()];
+		return mat;
+	}
 }
